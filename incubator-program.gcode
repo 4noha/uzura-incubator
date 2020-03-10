@@ -933,7 +933,7 @@ G4 S3600
 ; Ending
 M104 S0
 G4 S120 ; cool down
-G1 Z190.0
+G1 Z150.0
 M140 S0 ; turn off bed
 M84 ; disable motors
 M300 P300 S4000 ; beep
