@@ -13,12 +13,12 @@ G28 X0 Y0 ;move X/Y to min endstops
 G28 Z0 ;move Z to min endstops
 G92 E0 ;zero the extruded length
 G0 F2000 ;ヘッダ速度 2400㎜/s
-G1 Z5.0
+G1 Z6.0
 G1 X50.0 Y140.0
 G4 S1
 G1 Z150.0
 G4 S5
-G1 Z5.0
+G1 Z6.0
 ; test
 ;G4 S5 ;一時停止 P=ms S=s
 ;G1 X50.0 Y140.0
